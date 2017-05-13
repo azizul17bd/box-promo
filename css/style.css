@@ -1,0 +1,226 @@
+/*Common CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;   /* top:0, left-right:0; bottom:15px; */
+    font-weight: 300;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+section.section-padding {
+    padding: 100px 0;
+}
+
+
+.scroll-to-top i.fa {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+    height: 50px;
+    line-height: 48px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 50px;
+    z-index: 99;
+}
+
+
+
+a.single-promo-item {
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: #fff;
+    display: block;
+    position: relative;
+    text-align: center;
+    transition: all ease 0.4s;
+} 
+
+a.single-promo-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #999;
+}
+
+a.single-promo-item:hover .promo-content {
+    bottom: 20px;
+}
+.promo-content {
+    bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    padding: 25px;
+    transition: all ease 0.4s;
+}
+.promo-content h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0 0 8px;
+    font-family: 'Changa One', cursive;
+}
+.promo-bg-01 {background-image: url(../img/promo-bg-01.jpg);}
+.promo-bg-02 {background-image: url(../img/promo-bg-02.jpg);}
+.promo-bg-03 {background-image: url(../img/promo-bg-03.jpg);}
+
+.single-project-item {
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+
+.parallax-bg-01 {
+    background-image: url(../img/parallax-bg-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parallax-bg-02 {
+    background-image: url(../img/parallax-bg-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parallax-bg-03 {
+    background-image: url(../img/parallax-bg-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.single-service-item {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 70px 30px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.single-service-item i.fa {
+/*    background: #333;*/
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.single-service-item a.service-learn-more-btn {
+    color: #fff;
+}
+.single-service-item::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.overlay {
+    position: relative;
+/*    background-attachment: fixed;*/
+}
+.overlay::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.other-text {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.video-play-box {
+    color: #fff;
+    text-align: center;
+    transition: all ease 0.4s;
+}
+.video-play-box i.fa {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #333;
+    font-size: 60px;
+    height: 100px;
+    line-height: 98px;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+}
+
+
+
+html, body, .full-height {
+    height: 100%;
+}
+body {
+    max-height: 100%;
+}
+.section-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.section-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.section-padding.full-height {
+    padding: 0;
+}
